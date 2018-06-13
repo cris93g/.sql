@@ -43,3 +43,12 @@ create table Orders(
   insert into Orders (  Product_name, 
   product_price, quantity ) values("car" ,250.99, 5) 
   select * from orders 
+  select sum (quantity) from orders;
+  select sum (quantity * product_price) from orders;
+  select sum (quantity * product_price) from orders where personid=0
+;
+
+
+
+insert into Artist (
+name)values("john"),("mike"),("brian");
