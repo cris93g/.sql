@@ -52,4 +52,5 @@ create table Orders(
 
 insert into Artist (
 name)values("john"),("mike"),("brian");
-select * from Artist order by Name desc;
+select * from Artist order by Name desc  limit 10; 
+select * from Artist order by Name asc limit 5;
