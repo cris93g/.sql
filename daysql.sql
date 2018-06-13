@@ -30,3 +30,15 @@ select * from PERSON WHERE favorite_color ="orange" or
  favorite_color ="green";
  select * from person where favorite_color in ("orange","blue","blue")
  select * from Person where favorite_color in ("yellow","purple");
+
+
+
+
+create table Orders(
+   id integer primary key autoincrement,
+   product_name varcha(512),
+   product_price float,
+   quantity integer
+   
+  insert into Orders (  Product_name, 
+  product_price, quantity ) values("car" ,250.99, 5) 
