@@ -68,3 +68,4 @@ select Count (*) from Employee where city ="Lethbridge"
 select Count(*) from Invoice where BillingCountry="USA";
 select max (Total) from Invoice;
 select min (Total) from Invoice;
+select *  from Invoice where Total>5;
