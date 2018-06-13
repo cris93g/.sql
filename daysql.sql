@@ -39,6 +39,7 @@ create table Orders(
    product_name varcha(512),
    product_price float,
    quantity integer
-   
+
   insert into Orders (  Product_name, 
   product_price, quantity ) values("car" ,250.99, 5) 
+  select * from orders 
