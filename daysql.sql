@@ -59,3 +59,5 @@ select * from Artist where Name like "%Black%"
 
 
 select * from Employee where city like "Calgary";
+select FirstName,LastName, max(BirthDate) from Employee;
+select FirstName,LastName, min(BirthDate) from Employee;
