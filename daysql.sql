@@ -29,3 +29,4 @@ favorite_color != "blue";
 select * from PERSON WHERE favorite_color ="orange" or 
  favorite_color ="green";
  select * from person where favorite_color in ("orange","blue","blue")
+ select * from Person where favorite_color in ("yellow","purple");
