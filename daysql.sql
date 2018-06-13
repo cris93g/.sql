@@ -63,3 +63,6 @@ select FirstName,LastName, max(BirthDate) from Employee;
 select FirstName,LastName, min(BirthDate) from Employee;
 select * from Employee where ReportsTO=2;
 select Count (*) from Employee where city ="Lethbridge"
+
+
+select Count(*) from Invoice where BillingCountry="USA";
