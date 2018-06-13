@@ -23,3 +23,6 @@ select * from Person  order by height asc;
 select * from Person where age =18;
 select * from Person where age age<20 or age>30;
 select * from Person where age != 27;
+select * from Person where favorite_color != "red";
+select * from Person where favorite_color != "red" and  
+favorite_color != "blue";
