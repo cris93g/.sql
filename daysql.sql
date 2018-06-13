@@ -56,3 +56,6 @@ select * from Artist order by Name desc  limit 10;
 select * from Artist order by Name asc limit 5;
 select * from Artist where Name like "Black%";
 select * from Artist where Name like "%Black%"
+
+
+select * from Employee where city like "Calgary";
