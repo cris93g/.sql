@@ -69,3 +69,7 @@ select Count(*) from Invoice where BillingCountry="USA";
 select max (Total) from Invoice;
 select min (Total) from Invoice;
 select *  from Invoice where Total>5;
+select *  from Invoice where Total<5
+select Count (*) from Invoice where BillingState in ("CA""TX""AZ");
+select avg(Total)from Invoice;
+select sum(Total) from Invoice;
