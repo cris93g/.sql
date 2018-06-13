@@ -52,3 +52,4 @@ create table Orders(
 
 insert into Artist (
 name)values("john"),("mike"),("brian");
+select * from Artist order by Name desc;
