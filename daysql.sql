@@ -26,3 +26,5 @@ select * from Person where age != 27;
 select * from Person where favorite_color != "red";
 select * from Person where favorite_color != "red" and  
 favorite_color != "blue";
+select * from PERSON WHERE favorite_color ="orange" or 
+ favorite_color ="green";
